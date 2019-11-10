@@ -1,11 +1,3 @@
-//
-//  QuestionGeneratorViewController.swift
-//  QuyzApp
-//
-//  Created by Sara Topic on 10/6/19.
-//  Copyright © 2019 Sara Topic. All rights reserved.
-//
-
 import Foundation
 import UIKit
 import Alamofire

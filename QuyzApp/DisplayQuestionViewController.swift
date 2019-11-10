@@ -15,8 +15,6 @@ class DisplayQuestionViewController: UIViewController{
     
     override func viewDidLoad() {
         questionLabel.text = quizObject!.question?.removingPercentEncoding
-//        correctAnswer = Bool(quizObject!.correct_answer!.lowercased())
-          //  quizObject?.correct_answer == "True"
     }
     
     func isAnswerCorrect(selectedAnswer: Bool)

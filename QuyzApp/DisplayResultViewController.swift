@@ -7,7 +7,6 @@ class DisplayResultViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
     override func viewDidLoad() {
         imageView.image = UIImage(named: imageName!)
-       // self.view.isUserInteractionEnabled = true
         let swipeDown =  UISwipeGestureRecognizer(target: self, action: #selector(self.handleSwipe(_sender:)))
         swipeDown.direction = .down
         self.view.addGestureRecognizer(swipeDown)
