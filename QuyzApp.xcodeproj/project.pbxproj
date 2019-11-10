@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3209549A234A9AEC0015D532 /* QuestionGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32095499234A9AEC0015D532 /* QuestionGeneratorViewController.swift */; };
+		3209549E2359555D0015D532 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3209549D2359555D0015D532 /* DataModel.swift */; };
+		320954A023596D880015D532 /* DisplayQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3209549F23596D880015D532 /* DisplayQuestionViewController.swift */; };
+		320954A2235B88600015D532 /* DisplayResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320954A1235B88600015D532 /* DisplayResultViewController.swift */; };
+		3213D8C02349615C00A6A3FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213D8BF2349615C00A6A3FE /* AppDelegate.swift */; };
+		3213D8C22349615C00A6A3FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3213D8C12349615C00A6A3FE /* ViewController.swift */; };
+		3213D8C52349615C00A6A3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3213D8C32349615C00A6A3FE /* Main.storyboard */; };
+		3213D8C72349615D00A6A3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3213D8C62349615D00A6A3FE /* Assets.xcassets */; };
+		3213D8CA2349615D00A6A3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3213D8C82349615D00A6A3FE /* LaunchScreen.storyboard */; };
+		644C7E75A081D666D0EE2CD8 /* libPods-QuyzApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0FA539F0F9CE8F8421DD61 /* libPods-QuyzApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2067406860C65F8536416C1A /* Pods-QuyzApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuyzApp.release.xcconfig"; path = "Target Support Files/Pods-QuyzApp/Pods-QuyzApp.release.xcconfig"; sourceTree = "<group>"; };
+		32095499234A9AEC0015D532 /* QuestionGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionGeneratorViewController.swift; sourceTree = "<group>"; };
+		3209549D2359555D0015D532 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		3209549F23596D880015D532 /* DisplayQuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayQuestionViewController.swift; sourceTree = "<group>"; };
+		320954A1235B88600015D532 /* DisplayResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayResultViewController.swift; sourceTree = "<group>"; };
+		3213D8BC2349615C00A6A3FE /* QuyzApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuyzApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3213D8BF2349615C00A6A3FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3213D8C12349615C00A6A3FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3213D8C42349615C00A6A3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3213D8C62349615D00A6A3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3213D8C92349615D00A6A3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3213D8CB2349615D00A6A3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C0FA539F0F9CE8F8421DD61 /* libPods-QuyzApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QuyzApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3EBD2B62F35E0B15F3FDFF /* Pods-QuyzApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuyzApp.debug.xcconfig"; path = "Target Support Files/Pods-QuyzApp/Pods-QuyzApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3213D8B92349615C00A6A3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644C7E75A081D666D0EE2CD8 /* libPods-QuyzApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3213D8B32349615C00A6A3FE = {
+			isa = PBXGroup;
+			children = (
+				3213D8BE2349615C00A6A3FE /* QuyzApp */,
+				3213D8BD2349615C00A6A3FE /* Products */,
+				8B6D974ED6F65984E46E502A /* Pods */,
+				73D42961B334FC28AC767101 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3213D8BD2349615C00A6A3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3213D8BC2349615C00A6A3FE /* QuyzApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3213D8BE2349615C00A6A3FE /* QuyzApp */ = {
+			isa = PBXGroup;
+			children = (
+				3213D8BF2349615C00A6A3FE /* AppDelegate.swift */,
+				3213D8C12349615C00A6A3FE /* ViewController.swift */,
+				3213D8C32349615C00A6A3FE /* Main.storyboard */,
+				32095499234A9AEC0015D532 /* QuestionGeneratorViewController.swift */,
+				3213D8C62349615D00A6A3FE /* Assets.xcassets */,
+				3213D8C82349615D00A6A3FE /* LaunchScreen.storyboard */,
+				3213D8CB2349615D00A6A3FE /* Info.plist */,
+				3209549D2359555D0015D532 /* DataModel.swift */,
+				3209549F23596D880015D532 /* DisplayQuestionViewController.swift */,
+				320954A1235B88600015D532 /* DisplayResultViewController.swift */,
+			);
+			path = QuyzApp;
+			sourceTree = "<group>";
+		};
+		73D42961B334FC28AC767101 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C0FA539F0F9CE8F8421DD61 /* libPods-QuyzApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B6D974ED6F65984E46E502A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA3EBD2B62F35E0B15F3FDFF /* Pods-QuyzApp.debug.xcconfig */,
+				2067406860C65F8536416C1A /* Pods-QuyzApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3213D8BB2349615C00A6A3FE /* QuyzApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3213D8CE2349615D00A6A3FE /* Build configuration list for PBXNativeTarget "QuyzApp" */;
+			buildPhases = (
+				4EF503BF0E7848D419379FBA /* [CP] Check Pods Manifest.lock */,
+				3213D8B82349615C00A6A3FE /* Sources */,
+				3213D8B92349615C00A6A3FE /* Frameworks */,
+				3213D8BA2349615C00A6A3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuyzApp;
+			productName = QuyzApp;
+			productReference = 3213D8BC2349615C00A6A3FE /* QuyzApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3213D8B42349615C00A6A3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Sara Topic";
+				TargetAttributes = {
+					3213D8BB2349615C00A6A3FE = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 3213D8B72349615C00A6A3FE /* Build configuration list for PBXProject "QuyzApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3213D8B32349615C00A6A3FE;
+			productRefGroup = 3213D8BD2349615C00A6A3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3213D8BB2349615C00A6A3FE /* QuyzApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3213D8BA2349615C00A6A3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3213D8CA2349615D00A6A3FE /* LaunchScreen.storyboard in Resources */,
+				3213D8C72349615D00A6A3FE /* Assets.xcassets in Resources */,
+				3213D8C52349615C00A6A3FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4EF503BF0E7848D419379FBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuyzApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3213D8B82349615C00A6A3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3209549A234A9AEC0015D532 /* QuestionGeneratorViewController.swift in Sources */,
+				3213D8C22349615C00A6A3FE /* ViewController.swift in Sources */,
+				3213D8C02349615C00A6A3FE /* AppDelegate.swift in Sources */,
+				320954A023596D880015D532 /* DisplayQuestionViewController.swift in Sources */,
+				320954A2235B88600015D532 /* DisplayResultViewController.swift in Sources */,
+				3209549E2359555D0015D532 /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3213D8C32349615C00A6A3FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3213D8C42349615C00A6A3FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3213D8C82349615D00A6A3FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3213D8C92349615D00A6A3FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3213D8CC2349615D00A6A3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3213D8CD2349615D00A6A3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3213D8CF2349615D00A6A3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA3EBD2B62F35E0B15F3FDFF /* Pods-QuyzApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuyzApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saratopic.QuyzApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3213D8D02349615D00A6A3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2067406860C65F8536416C1A /* Pods-QuyzApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QuyzApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saratopic.QuyzApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3213D8B72349615C00A6A3FE /* Build configuration list for PBXProject "QuyzApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3213D8CC2349615D00A6A3FE /* Debug */,
+				3213D8CD2349615D00A6A3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3213D8CE2349615D00A6A3FE /* Build configuration list for PBXNativeTarget "QuyzApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3213D8CF2349615D00A6A3FE /* Debug */,
+				3213D8D02349615D00A6A3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3213D8B42349615C00A6A3FE /* Project object */;
+}

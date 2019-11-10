@@ -1,0 +1,6 @@
+module Pods_QuyzApp {
+  umbrella header "Pods-QuyzApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
